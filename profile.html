@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: green;
+}
+.header {
+    padding: 50px;
+    text-align: left;
+    background: wheat;
+}
+img {
+    float: left;
+    padding: 5px;
+  }
+.header h1 {
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: justify;
+  }
+  .header h2 {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color:#c31818;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: yellow;
+    color: brown;
+  }
+
+h2{
+  text-align: center;
+  font-size: 25px;
+}
+div.gallery {
+  border: 1px solid white;
+  text-align: center;
+}
+
+div.gallery:hover {
+  border: 1px solid red;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 25%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: justify;
+}
+
+h4 { 
+text-align: center;
+font-size: xx-large;
+background-color: rgb(6, 32, 32);
+}
+video { 
+  width: 25%;
+  height: 25%;
+  float: left;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: justify;
+}
+
+
+/* Footer */
+.footer {
+  padding: 10px;
+    text-align: center;
+    background: #508eb4;
+  }
+  
+
+</style>
+</head>
+<body>
+  <div class="header">
+    <img src="img/ispsclogo.png" width="100" height="100">
+  <div>
+    <h1>ILOCOS SUR POLYTECHNIC STATE COLLEGE</h1>
+    <h2>Sta. Maria Campus</h2>
+  </div>
+  </div>
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="profile.html">Profile</a>
+    <a href="about.html">About</a>
+    <a href="news.html" style="float:right">News</a>
+  </div>
+
+<h2>IMAGES</h2>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="img/4.jpg" width="400" height="200">
+    </a>
+    <div class="desc">The F4</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="img/1.jpg" width="400" height="200">
+    <div class="desc">just mee.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="img/2.jpg" width="400" height="200">
+    <div class="desc">the 4 of us.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="img/3.jpg" width="400" height="200">
+    <div class="desc">Tres Maria's</div>
+  </div>
+</div>
+
+
+<h2>VIDEOS</h2>
+
+<div class="responsive"></div>
+<video width="200" height="200" controls>
+  <source src="vid/T1.MOV" type="video/mp4">
+</video>
+
+<div class="responsive"></div>
+<video width="200" height="200" controls>
+  <source src="vid/T2.MP4" type="video/mp4">
+</video>
+
+<div class="responsive"></div>
+<video width="200" height="200" controls>
+  <source src="vidT4.MOV" type="video/mp4">
+</video>
+
+<div class="responsive"></div>
+<video width="200" height="200" controls>
+  <source src="vid/T3.MOV" type="video/mp4">
+</video>
+
+
+
+<div class="footer">
+  <h2>@2023 All Rights Reserved</h2>
+</div> 
+
+</body>
+</html>
+
+

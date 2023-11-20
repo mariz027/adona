@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    background: grey;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 50px;
+    text-align: left;
+    background: white;
+  }
+
+  img {
+    float: left;
+    padding: 5px;
+  }
+  
+  .header h1 {
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: justify;
+  }
+  
+  .header h2 {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: pink;
+    color: whitesmoke;
+  }
+
+  .logo {
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+  }
+  
+  .logo img {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 40%;
+  padding: 20px;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  /* Footer */
+  .footer {
+    padding: 10px;
+    text-align: center;
+    background: palegreen;
+  }
